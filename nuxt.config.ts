@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  extends: [['@matterlabs/docs-nuxt-template']],
-  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/eslint', '@nuxtjs/seo', 'nuxt-gtag'],
+  extends: [['@matterlabs/docs-nuxt-template'], '@nuxt/ui-pro'],
+  modules: ['@nuxt/content', '@nuxt/ui', '@nuxt/eslint', '@nuxtjs/seo', 'nuxt-gtag', '@nuxt/ui'],
   site: {
     name: 'Community Code',
     url: process.env.NUXT_SITE_ENV ? 'https://staging-code.zksync.io' : 'https://code.zksync.io',
